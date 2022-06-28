@@ -1,5 +1,10 @@
+import { Header } from "../components/Header";
+
 export function ContactMePage(){
   return(
-    <h1>Contact Me</h1>
+    <div>
+      <Header />
+      <h1>Contac Me</h1>
+    </div>
   )
 }
