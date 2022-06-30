@@ -1,5 +1,13 @@
+import { Logo } from "./Logo";
+
 export function Footer() {
   return (
-    <h1> Footer </h1>
+    <div>
+      <footer>
+        <Logo />
+        <p>Alguma coisa motivacional</p>
+        <a href=""></a>
+      </footer>
+    </div>
   )
 }

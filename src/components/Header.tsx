@@ -1,10 +1,11 @@
 import { Link } from "react-router-dom";
+import { Logo } from "./Logo";
 
 export function Header(){
   return (
     <div>
       <header className="flex justify-between max-w-[1100px] m-auto">
-        <h1>Alan Hideyuki Shishido</h1>
+        <Logo/>
         <div className="flex flex-row gap-4">
           <Link to={`/home`}>Home</Link>
           <Link to={`/projects`}>Projects</Link>
