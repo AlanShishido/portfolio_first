@@ -4,7 +4,7 @@ import { Logo } from "./Logo";
 export function Header(){
   return (
     <div>
-      <header className="flex justify-between max-w-[1100px] m-auto">
+      <header className="flex justify-between max-w-[1600px] m-auto">
         <Logo/>
         <div className="flex flex-row gap-4">
           <Link to={`/home`}>Home</Link>
