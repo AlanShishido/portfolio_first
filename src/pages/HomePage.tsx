@@ -6,8 +6,8 @@ export function HomePage(){
   return (
     <div>
       <Header />
-      <div className="flex justify-around max-w-[1600px] m-auto"> {/* Comentando algumas coisas */}
-          <div className="flex flex-col max-w-2xl justify-center m-auto">
+      <div className="flex justify-around max-w-[1600px] m-auto p-auto"> {/* Comentando algumas coisas */}
+          <div className="flex flex-col max-w-2xl justify-center items-baseline m-auto">
             <div className="flex flex-col p-2 justify-center gap-1">
               <span className="text-yellow-500 text-xl mt-2">
                 Hello, I am
